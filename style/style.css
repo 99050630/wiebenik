@@ -1,0 +1,154 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+div.stripe{
+    width: 150px;
+    border-bottom: 3px solid #323232; 
+}
+div.top{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: #E9AC0D;
+}
+div.menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #323232;
+}
+    div.menu_sub{
+        margin: auto;
+        max-width: 1100px;
+    }
+        div.menu_opleiding{
+            float: left;
+            max-width: 450px;
+            color: #FFF; 
+            padding: 13px 0;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+            div.menu_opleiding a{
+                color: #FFF;
+                text-decoration: none;
+            }
+        div.menu_container{
+            float: right;
+            font-size: 18px;
+        }
+            div.menu_item{
+                display: inline-block;
+                color: #FFF; 
+            }
+                div.menu_item{
+                    display: inline-block;
+                    color: #FFF; 
+                    padding: 40px 7px;
+                }
+                div.menu_item:hover{
+                    background-color: #E9AC0D; 
+                    color: #fff;
+                }
+div.front{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 40px;
+}
+div.titel{
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #323232;
+}
+div.waarom{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 300px;
+}
+    div.waarom_foto{
+        float: left;
+        width: 50%;
+        min-height: 400px;
+        background-image: url("../images/ik.jpg");
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    div.waarom_text{
+        float: right;
+        width: 50%;
+        background-color: #E9AC0D;
+        min-height: 400px;
+        box-sizing: border-box;
+        padding: 30px 50px;
+        color: #fff;
+    }
+        div.waarom_text p{
+            margin-top: 20px;
+        }
+        div.waarom_text button{
+            background-color: #323232;
+            padding: 15px 20px;
+            border: none;
+            color: #fff;
+            font-weight: 500;
+            margin-top: 20px;
+            cursor: pointer;
+            outline: none;
+        }
+        div.waarom_text button:hover{
+            background-color: #3b3b3b;
+        }
+div.footer{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: #FFF;
+    background-color: #3B3B3B;
+}
+div.motivatie_foto{
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-image: url("../images/motivatie.jpg");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div.ontwikkeling_foto{
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-image: url("../images/ontwikkeling.jpg");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div.opleiding_foto{
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-image: url("../images/davincicollege.jpg");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
